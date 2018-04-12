@@ -3,7 +3,7 @@ springboot学习
 
 1.集成swagger2 用于生成接口文档
 
-    常用注解： 
+    1.常用注解： 
     - @Api()用于类； 
     - @ApiOperation()用于方法； 
     - @ApiParam()用于方法，参数，字段说明； 表示对参数的添加元数据（说明或是否必填等） 
@@ -13,5 +13,11 @@ springboot学习
     - @ApiImplicitParam() 用于方法 表示单独的请求参数 
     - @ApiImplicitParams() 用于方法，包含多个 @ApiImplicitParam
   
-    参考：
+    2.参考：
     https://blog.csdn.net/u014231523/article/details/54411026
+    
+    3.访问路径
+    http://localhost:8080/swagger-ui.html  原生ui
+    http://localhost:8080/doc.html bootstrap-ui
+
+2.集成rabbitmq 

@@ -17,7 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  */
 @Configuration
 @EnableSwagger2
-@ComponentScan("com.infoholdcity.controller")
+@ComponentScan("com.infoholdcity.demo.controller")
 public class SwaggerConfig {
 
     @Bean
