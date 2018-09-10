@@ -20,4 +20,6 @@ springboot学习
     http://localhost:8080/swagger-ui.html  原生ui
     http://localhost:8080/doc.html bootstrap-ui
 
-2.集成rabbitmq 
+2. 添加定时任务
+
+    参考 schedule 中的README.md
